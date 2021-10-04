@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Manga"
+        android:id="@+id/home_secondary_manga"
+        android:icon="@mipmap/ic_launcher"/>
+    <item
+        android:id="@+id/home_secondary_author"
+        android:title="Author"
+        android:icon="@mipmap/ic_launcher"/>
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_splash">40sp</dimen>
+    <dimen name="text_normal">12sp</dimen>
+    <dimen name="text_heading">@dimen/_16ssp</dimen>
+    <dimen name="text_heading_bigger">@dimen/_18ssp</dimen>
+    <dimen name="text_normal_bigger">14sp</dimen>
+    <dimen name="text_normal_smaller">10sp</dimen>
+
+</resources>

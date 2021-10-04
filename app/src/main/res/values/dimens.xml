@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="container_start_padding">@dimen/_20sdp</dimen>
+    <dimen name="container_end_padding">@dimen/_20sdp</dimen>
+    <dimen name="container_top_padding">@dimen/_20sdp</dimen>
+    <dimen name="container_bottom_padding">@dimen/_20sdp</dimen>
+</resources>

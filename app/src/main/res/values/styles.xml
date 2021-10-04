@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="container_style">
+        <item name="android:paddingTop">@dimen/container_top_padding</item>
+        <item name="android:layout_marginStart">@dimen/container_start_padding</item>
+        <item name="android:layout_marginEnd">@dimen/container_end_padding</item>
+    </style>
+
+    <style name="fullcontainer_style">
+        <item name="android:padding">@dimen/_20sdp</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/fullcontainer_style"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Sumber Gambar"
+            android:textSize="@dimen/text_heading_bigger"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dialog_pilihsumbergambar_kamera_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kamera"
+            style="@style/fullcontainer_style"
+            android:textSize="@dimen/text_heading"
+            />
+        <TextView
+            android:id="@+id/dialog_pilihsumbergambar_galeri_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Galeri"
+            style="@style/fullcontainer_style"
+            android:textSize="@dimen/text_heading"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
